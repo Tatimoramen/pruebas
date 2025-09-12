@@ -1,0 +1,16 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+out/
+
+# Otros temporales
+*.log
+*.vsidx
+
+# Archivos de configuración locales
+*.DotSettings.user
