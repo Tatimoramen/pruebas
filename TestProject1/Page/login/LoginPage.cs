@@ -1,6 +1,6 @@
 ﻿using Microsoft.Playwright;
 
-namespace TestProject1.Page.login
+namespace Page.login
 {
     internal class LoginPage : BasePage
     {

@@ -1,16 +1,16 @@
 ﻿using Microsoft.Playwright;
 
-namespace TestProject1.Page.compra
+namespace Page.compra
 {
     internal class AgregarItemPage : BasePage
     {
         private readonly ILocator _checkoutButton;
         private readonly ILocator _inputFirstName;
         private readonly ILocator _inputLastName;
-        private readonly ILocator _inputPostalCode;
         private readonly ILocator _btnContinue;
         private readonly ILocator _btnFinish;
         private readonly ILocator _lblOrderConfirmation;
+        private readonly ILocator _inputPostalCode;
 
         public AgregarItemPage(IPage page) : base(page)
         {

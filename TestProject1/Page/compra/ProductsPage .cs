@@ -1,4 +1,5 @@
 ﻿using Microsoft.Playwright;
+using Page;
 
 namespace TestProject1.Page.compra
 {

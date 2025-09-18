@@ -1,6 +1,6 @@
 ﻿using Microsoft.Playwright;
 
-namespace TestProject1.Page
+namespace Page
 {
     public class BasePage(IPage page)
     {
